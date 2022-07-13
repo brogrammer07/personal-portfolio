@@ -16,13 +16,13 @@ const SkillsProgressBar = ({ color, progress, index }) => {
   }, [index, progress]);
 
   return (
-    <div className={`w-[20rem] h-[2px] bg-[#012E3D]`}>
+    <div className={`w-[20rem] h-[4px] bg-[#012E3D]`}>
       <div
         style={{
           backgroundColor: color,
           width: `${width}%`,
         }}
-        className="h-[2px]"></div>
+        className="h-[4px]"></div>
     </div>
   );
 };

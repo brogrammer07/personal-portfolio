@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Hahmlet&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=La+Belle+Aurore&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Hahmlet:wght@700&display=swap");
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -13,6 +14,6 @@
     --tw-text-opacity: 1;
     color: rgb(59 63 69 / var(--tw-text-opacity));
     font-family: "La Belle Aurore", cursive;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
   }
 }

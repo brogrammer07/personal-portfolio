@@ -5,7 +5,7 @@ const TagSphere = () => {
   const [myTags, setMyTags] = useState(mySkillsData.words);
   useEffect(() => {
     TagCloud(".tagcloud", myTags, {
-      radius: 250,
+      radius: 330,
       itemClass: "text-secondary text-2xl font-bold ",
     });
   }, [myTags]);
