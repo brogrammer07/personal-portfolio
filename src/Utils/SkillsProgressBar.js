@@ -13,7 +13,7 @@ const SkillsProgressBar = ({ color, progress, index }) => {
         }
       }, 10);
     }, 300 * index);
-  }, []);
+  }, [index, progress]);
 
   return (
     <div className={`w-[20rem] h-[2px] bg-[#012E3D]`}>
