@@ -4,7 +4,7 @@ import Sidebar from "./components/Sidebar";
 
 const App = () => {
   return (
-    <div className="overflow-y-scroll overflow-x-hidden ">
+    <div className="overflow-hidden ">
       <div className="flex">
         <Sidebar />
         <Body />

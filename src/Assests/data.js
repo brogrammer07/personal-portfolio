@@ -20,47 +20,30 @@ export const sidebarData = {
 };
 
 export const mainData = {
-  firstLine: {
-    firstWord: [
-      { letter: "H", normal: true },
-      { letter: "i", normal: true },
-      { letter: ",", normal: true },
-    ],
-  },
+  firstLine: "Hi,",
+  secondLine: "I'm-Tushar",
+  thirdLine: "Web-Developer",
+  subHeading: "Full-Stack Web Developer",
+};
 
-  secondLine: {
-    firstWord: [
-      { letter: "I", normal: true },
-      { letter: "'", normal: true },
-      { letter: "m", normal: true },
-    ],
-    secondWord: [
-      { letter: "T", normal: false },
-      { letter: "u", normal: true },
-      { letter: "s", normal: true },
-      { letter: "h", normal: true },
-      { letter: "a", normal: true },
-      { letter: "r", normal: true },
-      { letter: ",", normal: true },
-    ],
-  },
-
-  thirdLine: {
-    firstWord: [
-      { letter: "W", normal: true },
-      { letter: "e", normal: true },
-      { letter: "b", normal: true },
-    ],
-    secondWord: [
-      { letter: "D", normal: true },
-      { letter: "e", normal: true },
-      { letter: "v", normal: true },
-      { letter: "e", normal: true },
-      { letter: "l", normal: true },
-      { letter: "o", normal: true },
-      { letter: "p", normal: true },
-      { letter: "e", normal: true },
-      { letter: "r", normal: true },
-    ],
-  },
+export const mySkillsData = {
+  number: "01.",
+  title: "My Skill Set",
+  skills: [
+    { skill: "Front-end", progress: 90, color: "#03F6C0" },
+    { skill: "Back-end", progress: 80, color: "#F6033E" },
+    { skill: "ReactJs", progress: 70, color: "#8800AA" },
+    { skill: "UX/UI", progress: 60, color: "#03F6C0" },
+  ],
+  words: [
+    "Html",
+    "CSS",
+    "ReactJs",
+    "NextJs",
+    "Firebase",
+    "NodeJs",
+    "ExpressJs",
+    "MongoDB",
+    "MERN",
+  ],
 };

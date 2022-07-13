@@ -6,6 +6,7 @@ module.exports = {
         primary: "#CCD7F7",
         primaryDark: "#B8C3E1",
         primaryDarker: "#8892B0",
+        primarySubHeading: "#5D6576",
         primaryHeading: "#BFC9E8",
         primarySub: "#858B9F",
         primaryDetails: "#A4ADC8",
@@ -21,6 +22,7 @@ module.exports = {
     },
     fontFamily: {
       laBelleAurore: ["La Belle Aurore", "cursive"],
+      hahmlet: ["Hahmlet", "serif"],
     },
   },
   plugins: [],

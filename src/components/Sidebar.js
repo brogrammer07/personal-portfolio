@@ -6,10 +6,16 @@ import { AiFillInstagram } from "react-icons/ai";
 import { AiFillGithub } from "react-icons/ai";
 const Sidebar = () => {
   return (
-    <div className="flex-[0.15] h-screen bg-primaryLight flex items-center flex-col py-9 justify-between">
+    <div className="flex-[0.10] h-screen bg-primaryLight flex items-center flex-col py-9 justify-between">
       <div className="flex flex-col items-center space-y-4">
-        <img src={logo} alt="Logo" className="cursor-pointer" />
-        <p className="text-primarySidebar">{sidebarData.subTitle}</p>
+        <img
+          src={logo}
+          alt="Logo"
+          className="cursor-pointer w-[75px] h-[75px]"
+        />
+        <p className="text-primarySidebar text-[13px]">
+          {sidebarData.subTitle}
+        </p>
       </div>
       <div className="flex flex-col items-center space-y-8">
         {sidebarData.options.map((op, idx) => (
