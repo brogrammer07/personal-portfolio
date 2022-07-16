@@ -20,7 +20,7 @@ const Sidebar = () => {
       <div className="flex flex-col items-center space-y-8">
         {sidebarData.options.map((op, idx) => (
           <h1
-            className="text-primarySidebar cursor-pointer hover:text-primarySidebarHover duration-150 transition-all"
+            className="text-primarySidebar cursor-pointer hover:text-secondary duration-300 transition-all"
             key={idx}>
             {op.title}
           </h1>

@@ -20,7 +20,7 @@ const Main = () => {
       <div className="">
         <h7>&lt;h1&gt;</h7>
         <div className="flex flex-col w-[98%] mx-auto">
-          <div className="flex text-[80px] font-[700] text-primary">
+          <div className="flex text-[80px] font-[700] text-white">
             {firstLine.map((letter, idx) => (
               <motion.h1
                 whileHover={{
@@ -40,7 +40,7 @@ const Main = () => {
               </motion.h1>
             ))}
           </div>
-          <div className="flex text-[80px] font-[700] text-primary ">
+          <div className="flex text-[80px] font-[700] text-white ">
             {secondLine.map((letter, idx) => (
               <>
                 {letter === "-" ? (
@@ -75,7 +75,7 @@ const Main = () => {
               </>
             ))}
           </div>
-          <div className="flex text-[80px] font-[700] text-primary">
+          <div className="flex text-[80px] font-[700] text-white">
             {thirdLine.map((letter, idx) => (
               <>
                 {letter === "-" ? (
