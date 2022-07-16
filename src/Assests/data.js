@@ -51,5 +51,27 @@ export const mySkillsData = {
     "Mongoose",
     "UI/UX",
     "Figma",
+    "Redux",
+    "C/C++",
+    "NPM",
+    "GitHub",
+  ],
+};
+
+export const workData = {
+  number: "02.",
+  title: "Where I've Worked",
+  work: [
+    {
+      title: "Full-Stack Web Developer",
+      company: "Bessalani",
+      date: "May 2022 - Present",
+      description: [
+        "Delivered a Fullstack service to build web application for a German based Company which aims to provide an education platform for the Learners of various organization to learn new skills",
+        "Build a fully working LMS with Admin and Learner Panels to perform various CRUD operations, schedule classes, mark Attendance, Upload Courses with User Authentication.",
+
+        "Designed the Landing Page and Course Section of Bessalani website using Figma, Reactjs, TailwindCss.",
+      ],
+    },
   ],
 };

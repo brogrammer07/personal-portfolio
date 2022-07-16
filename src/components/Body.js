@@ -2,19 +2,29 @@ import React from "react";
 import { AiOutlineArrowRight } from "react-icons/ai";
 import Main from "./Main";
 import MySkills from "./MySkills";
+import Work from "./Work";
+import { motion } from "framer-motion";
 
 const Body = () => {
   return (
     <div className="flex-[0.9] bg-primary h-screen overflow-y-scroll overflow-x-hidden relative">
       <div className="absolute  bottom-16 -left-9">
         <div className="flex space-x-3 text-white items-center rotate-90  ">
-          <p>scroll down</p>
+          <motion.p
+            animate={{ x: [0, 10, 0] }}
+            transition={{ duration: 1.2, yoyo: Infinity }}>
+            scroll down
+          </motion.p>
           <AiOutlineArrowRight />
         </div>
       </div>
       <div className="absolute  bottom-16 -right-9">
         <div className="flex space-x-3 text-white items-center rotate-90  ">
-          <p>scroll down</p>
+          <motion.p
+            animate={{ x: [0, 10, 0] }}
+            transition={{ duration: 1.2, yoyo: Infinity }}>
+            scroll down
+          </motion.p>
           <AiOutlineArrowRight />
         </div>
       </div>
@@ -25,6 +35,7 @@ const Body = () => {
           <h7>&lt;body&gt;</h7>
           <Main />
           <MySkills />
+          <Work />
           <h7>&lt;/body&gt;</h7>
         </div>
         <h7>&lt;/html&gt;</h7>
