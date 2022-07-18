@@ -4,16 +4,3 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
-@layer base {
-  body {
-    font-family: "Hahmlet", serif;
-  }
-
-  h7 {
-    --tw-text-opacity: 1;
-    color: rgb(59 63 69 / var(--tw-text-opacity));
-    font-family: "La Belle Aurore", cursive;
-    font-size: 1.2rem;
-  }
-}

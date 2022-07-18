@@ -3,18 +3,23 @@ export const sidebarData = {
   options: [
     {
       title: "About",
+      id: "about",
     },
     {
       title: "My Skills",
+      id: "skill",
     },
     {
       title: "Work",
+      id: "work",
     },
     {
       title: "Projects",
+      id: "projects",
     },
     {
       title: "Contact",
+      id: "contact",
     },
   ],
 };

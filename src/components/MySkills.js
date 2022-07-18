@@ -5,7 +5,7 @@ import TagSphere from "../Utils/TagSphere";
 
 const MySkills = () => {
   return (
-    <div className="grid grid-cols-2 pr-16">
+    <div id="skill" className="grid grid-cols-2 pr-16">
       <div className="flex flex-col w-[98%] mx-auto space-y-3 self-center">
         <h7>&lt;div&gt;</h7>
         <div className="flex flex-col w-[98%] mx-auto space-y-4">

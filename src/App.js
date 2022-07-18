@@ -1,6 +1,7 @@
 import React from "react";
 import Body from "./components/Body";
 import Sidebar from "./components/Sidebar";
+import "./App.css";
 
 const App = () => {
   return (
